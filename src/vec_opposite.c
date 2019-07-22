@@ -12,7 +12,7 @@
 
 #include "libvec.h"
 
-t_vec       vec_opposit(t_vec v)
+t_vec       vec_opposite(t_vec v)
 {
     t_vec   res;
 
