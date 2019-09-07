@@ -20,4 +20,5 @@ t_vec vec_unit(t_vec v);
 float vec_dot_product(t_vec v1, t_vec v2);
 t_vec vec_cross_product(t_vec v1, t_vec v2);
 float vec_angle(t_vec v1, t_vec v2);
+void  vec_set(t_vec *v, float x, float y, float z);
 #endif

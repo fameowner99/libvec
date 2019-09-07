@@ -1,7 +1,8 @@
 NAME = libvec.a
 
 SRC = src/vec_add.c src/vec_angle.c src/vec_cross_product.c src/vec_dot_product.c \
-	src/vec_magnitude.c src/vec_mul.c src/vec_opposite.c src/vec_sub.c src/vec_unit.c
+	src/vec_magnitude.c src/vec_mul.c src/vec_opposite.c src/vec_sub.c src/vec_unit.c \
+	src/vec_set.c
 
 OBJ = $(SRC:.c=.o)
 
