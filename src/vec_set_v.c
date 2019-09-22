@@ -1,20 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   vec_set.c                                          :+:      :+:    :+:   */
+/*   vec_set_v.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: vmiachko <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/09/07 15:07:09 by vmiachko          #+#    #+#             */
-/*   Updated: 2019/09/07 15:07:14 by vmiachko         ###   ########.fr       */
+/*   Created: 2019/09/22 16:22:58 by vmiachko          #+#    #+#             */
+/*   Updated: 2019/09/22 16:22:59 by vmiachko         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libvec.h"
 
-void vec_set(t_vec *vec, float x, float y, float z)
+void  vec_set_v(t_vec *vec, t_vec a_vec)
 {
-	vec->x = x;
-	vec->y = y;
-	vec->z = z;
+    vec->x = a_vec.x;
+    vec->y = a_vec.y;
+    vec->z = a_vec.z;
 }
