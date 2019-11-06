@@ -14,6 +14,7 @@ ${CMAKE_CURRENT_LIST_DIR}/src/vec_unit.c
 ${CMAKE_CURRENT_LIST_DIR}/src/vec_cross_product.c
 ${CMAKE_CURRENT_LIST_DIR}/src/vec_mul.c
 ${CMAKE_CURRENT_LIST_DIR}/src/vec_set_v.c
+${CMAKE_CURRENT_LIST_DIR}/src/vec_dist.c
 )
 
 set(HEADER_FILES
