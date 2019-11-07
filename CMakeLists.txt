@@ -21,6 +21,6 @@ set(HEADER_FILES
 ${CMAKE_CURRENT_LIST_DIR}/inc/libvec.h
 )
 
-include_directories(${CMAKE_CURRENT_LIST_DIR}/inc)
-
 add_library(vec STATIC ${HEADER_FILES} ${SOURCE_FILES})
+
+target_include_directories(vec PRIVATE ${CMAKE_CURRENT_LIST_DIR}/inc)
